@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for ThoughtCoding CLI" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../javaWeb/apache-maven-3.9.4/mvn_repo/info/picocli/picocli-codegen/4.7.5/picocli-codegen-4.7.5.jar" />
+          <entry name="$PROJECT_DIR$/../../javaWeb/apache-maven-3.9.4/mvn_repo/info/picocli/picocli/4.7.5/picocli-4.7.5.jar" />
+        </processorPath>
+        <module name="thoughtcoding-cli" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>
